@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: apidomain
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:54320/apidomain
+    username: admin
+    password: zPBYatWEyCVuc2UZ
+  jpa:
+    database: POSTGRESQL
+    properties:
+      hibernate:
+        show_sql: false
+        generateddl: false
+        hbm2ddl.auto: validate
+        format_sql: true
